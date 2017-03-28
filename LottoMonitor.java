@@ -1,8 +1,5 @@
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.SynchronousQueue;
-
 
 public class LottoMonitor {
 
@@ -177,8 +174,7 @@ public class LottoMonitor {
 	
 	public String getMultiplierCount()
 	{
-		return ("2X: " + twoMul + " 3X: " + threeMul + " 5X: " + fiveMul + " 10X: " + tenMul);
-				
+		return ("2X: " + twoMul + " 3X: " + threeMul + " 5X: " + fiveMul + " 10X: " + tenMul);				
 	}
 	
 	public double getPayout()
